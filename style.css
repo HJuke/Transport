@@ -126,9 +126,10 @@
     justify-content: center;
 }
 .about-img {
-    height: auto;
+    height: 600px;
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .container {
