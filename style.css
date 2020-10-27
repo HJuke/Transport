@@ -215,3 +215,89 @@ footer a {
     text-decoration: none;
     color: #000000;
 }
+
+/* FOR MOBILE DEVICES */
+
+@media (max-width: 500px) {
+    #nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #nav a {
+        font-size: 1rem;
+        justify-content: center;
+    }
+
+    .name-line-1 {
+        font-size: 2rem;
+    }
+
+    .name-line-2 {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    #feature-grid {
+        padding-bottom: 60px;
+    }
+    
+    .feature-title {
+        font-size: 1.2rem;
+    }
+    .feature-description {
+        font-size: 1rem;
+    }
+    
+    .about-container {
+        gap: 10px;
+    }
+    
+    .about-img {
+        height: 300px;
+    }
+
+    .first, .second, .third {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about {
+        padding-bottom: 10px;
+    }
+
+    .about-title {
+        font-size: 1.4rem;
+    }
+    .about-text {
+        font-size: 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+    }
+
+    .contacts {
+        font-size: 1rem;
+    }
+
+    .form p {
+        font-size: 1rem;
+    }
+
+    input, textarea, #submit {
+        font-size: 1rem;
+        width: 70%
+    }
+}
+
+/* FOR TABLET DEVICES */
