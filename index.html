@@ -3,8 +3,9 @@
     <head>
         <title>Transport page sample</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Syne+Mono&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav id="nav">
@@ -14,6 +15,10 @@
             <a href="#contact">Contact</a>
         </nav>
         <section id="home">
+            <div class="header">
+                <h1 class="name-line-1">Your Company Name</h1>
+                <p class="name-line-2">Your slogen</p>
+            </div>
         </section>
         <section id="features">
             <h3 class="section-title">Our Transport Features</h3>
@@ -42,7 +47,97 @@
         </section>
         <section id="about">
             <h3 class="section-title">About Us</h3>
+            <div class="about-container">
+                <div class="first">
+                    <div>
+                        <p class="about-title">Team of professionals</p>
+                        <p class="about-text">We are working in the transportation industry for 20 years and the quality is an essential part of the work with our clients. We can present the licenses and rewards of your workers to assure you that your goods are in the right hands.
+                            During transportation, nothing would happen with your products as everything's thought through thoroughly.</p>
+                    </div>
+                    <div>
+                        <img class="about-img" src="assets/a1.jpg">
+                    </div>
+                </div>
+                <div class="second">
+                    <div>
+                        <img class="about-img" src="assets/a2.jpg">
+                    </div>
+                    <div>
+                        <p class="about-title">Become the best in your industry!</p>
+                        <p class="about-text">When you're working in the Transportation industry you need to consider several factors, which would help you to get the best position and beat your competitors. Successful firms got their information right! They understand that data event is vital for optimization steps, reporting as well as organization situation validation.
+                            Higher profit margins can be attained by penetrating in particular niche markets. Some clients have specific demands that are not covered by all carriers. Successful transportation firms commonly provide a vast portfolio of solutions to satisfy these details needs. The profit margin of these niche solutions makes up for the lower/negative margins of the extremely affordable services.</p>
+                    </div>
+                </div>
+                <div class="third">
+                    <div>
+                        <p class="about-title">Our values</p>
+                        <p class="about-text">Our main value is the qualified transportation of our clients goods. We need to focus on many things and specify the proccess step-by-step. To procceed all that we need to take responsibility, value our employee and develop their skills. Also, we urge active listening to clear up needs and also value responsiveness in all interactions.</p>
+                    </div>
+                    <div>
+                        <img class="about-img" src="assets/a3.jpg">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact"></section>
+        <section id="contact">
+            <div class="container">
+                <div class="form">
+                    <h4 class="sub-title">Connect with us</h4>
+                    <p>Please write us at any time you would have any kind of concern or question. We would enjoy to help you.</p>
+                    <form id="connectform">
+                        <!-- First name input -->
+                        <div class="form-group">
+                            <input type="text" name="First-name" id="first-name" class="form-control" placeholder="First name" required>
+                        </div>
+                        <!-- Last name input -->
+                        <div class="form-group">
+                            <input type="text" name="Last-name" id="last-name" class="form-control" placeholder="Last name" required>
+                        </div>
+                        <!-- Company name input -->
+                        <div class="form-group">
+                            <input type="text" name="Company-name" id="company-name" class="form-control" placeholder="Company name" required>
+                        </div>
+                        <!-- E-mail input -->
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="E-mail" required>
+                        </div>
+                        <!-- Phone input -->
+                        <div class="form-group">
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" required>
+                        </div>
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <textarea id="message" class="input-textarea" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <!-- Submit button-->
+                        <div class="form-group">
+                            <button id="submit" type="submit-button" class="submit-button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="data">
+                    <h4 class="section-title">Contact</h4>
+                    <div class="contacts">
+                        <div class="icons">
+                            <ul>
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                        <div class="texts">
+                            <ul>
+                                <li>Country, Postal code, City, Street and number</li>
+                                <li>+00 00 000 0000</li>
+                                <li>example@example.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <footer>
+            <p>This is a sample site that created by Juke. My works are available on my <a href="https://hjuke.github.io/portfolio/index.html"><i class="fa fa-github" aria-hidden="true"></i></a> page.</p>
+        </footer>
     </body>
 </html>
